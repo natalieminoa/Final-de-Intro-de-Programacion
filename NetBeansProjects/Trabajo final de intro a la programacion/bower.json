@@ -1,0 +1,7 @@
+{
+    "name": "Trabajo_final_de_intro_a_la_programacion", "version": "1.0.0", "main": "path/to/main.css", "ignore": [
+        ".jshintrc", "**/*.txt"
+    ], "dependencies": {
+    }, "devDependencies": {
+    }
+}
