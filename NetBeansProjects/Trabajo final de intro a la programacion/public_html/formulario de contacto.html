@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ZaLena Apparel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+    <div id="cabecera">
+            <img src="imagenes/Logo.jpg" alt=""/>
+        </div>
+        <br>
+        <div id="menu">
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                 <li><a href="Sobre Nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="catalog.html">Catálogo de Ropa</a></li>
+                <li>Contactanos</li>
+            </ul>
+        </div>
+  
+        <div id="cuerpo">
+            <h2>Formulario de Contacto</h2>
+        <form>
+            <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" /><br>
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="tefono" name="telefono" /><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            </div>
+            
+            <div>
+                <label for="Que Necesitas">¿Qué Necesitas?</label>
+                <select id="Que Necesitas" name="Que Necesitas">
+                    <option value="" selected="selected">Seleccione</option>
+                    <option value="Quejas">Quejas</option>
+                     <option value="Pedidos">Pedidos</option>
+                      <option value="Trabajos">Trabajos</option>
+                       <option value="Otros">Otros</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="Observaciones">Observaciones</label>
+                <textarea id="Observaciones" name="Observaciones" cols="50" rows="5"></textarea>
+            </div>
+               
+            <div>
+                 <button type="submit">Enviar</button>
+            </div>
+            
+        </form>
+        </div>
+        <br>
+        <div id="pie">
+            <p>Los Jardines Metropolitanos #13 <br> 809.244.2888</p>
+            <img src="imagenes/ig.png" alt="" width="50" height="50"/>
+            <img src="imagenes/twitter.png" alt=""width="50" height="50"/>
+            <img src="imagenes/fb.png" alt=""width="50" height="50"/>
+        </div>
+    </body>
+</html>
