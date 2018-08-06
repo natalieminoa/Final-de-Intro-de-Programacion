@@ -42,7 +42,7 @@ and open the template in the editor.
 
 a:hover { 
     background-color: #AA2233;
-    font-stretch: semi-expanded;
+    font-stretch: ultra-expanded;
 }
 
 a:visited {
@@ -71,11 +71,11 @@ label{
     width:150px;
     text-align: left;
     display: inline-block;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 textArea{
- width: 200px; 
+ width: 250px; 
  vertical-align: middle;
 
 }
@@ -97,12 +97,13 @@ form div{
 	width: 60%;
 	margin-left: 40%;
         background-color: white;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Raleway', sans-serif;
 	}
 * html #block_1
 	{
 	display: inline;
         background-color: white;
+        font-family: 'Raleway', sans-serif;
 	}
 #block_2
 	{
@@ -126,16 +127,19 @@ form div{
  
 #block_1 p {
       font-size: 16px; 
+      font-family: 'Raleway', sans-serif;
         }
         
 #block_1, #block_2
 	{
 	padding-bottom: 32767px !important;
-	margin-bottom: -32767px !important; 
+	margin-bottom: -32767px !important;
+        font-family: 'Raleway', sans-serif;
 	}
         
 #wrapper
 	{
 	overflow: hidden;
         display: block;
+        font-family: 'Raleway', sans-serif;
         }
