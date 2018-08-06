@@ -54,8 +54,18 @@ a:active {
 }
 /*Hasta aqui el codigo css de index*/ 
 
+#cuerpo h2{
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+form button{
+    color: black;
+}
+
 form{
-    margin: 1em;
+    margin: auto;
     text-align: left;
     border: 2px;
     padding: 25px;
