@@ -52,6 +52,7 @@ a:visited {
 a:active {
     color: white;
 }
+/*Hasta aqui el codigo css de index*/ 
 
 form{
     margin: 1em;
@@ -80,66 +81,74 @@ textArea{
 
 }
 
-h2 {
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    color: black; 
-    text-align: center;
-}
-
 form div{
     padding: 5px;
 }
 
+/*Hasta aqui el codigo css del formulario*/
+
 #block_1
 	{
 	float: left;
-	width: 60%;
-	margin-left: 40%;
-        background-color: white;
-        font-family: 'Raleway', sans-serif;
+	width: 70%;
+	margin-left: 30%;
 	}
 * html #block_1
 	{
 	display: inline;
         background-color: white;
-        font-family: 'Raleway', sans-serif;
 	}
 #block_2
 	{
 	float: left;
-	width: 35%;
-	margin-left: -100%;
-        background-color: white;    
-        font-family: 'Raleway', sans-serif;
+	width: 30%;
+	margin-left: -100%;    
 	}
 
-#block_2 ul li {
-    background: black;
-    display:block;
-    font-size:18px;
-    font-family: 'Raleway', sans-serif;
-    padding: 15px;
-    border-radius: 10px;  
-    list-style-type: none;
-    color: white;
-        }
- 
-#block_1 p {
-      font-size: 16px; 
-      font-family: 'Raleway', sans-serif;
-        }
-        
 #block_1, #block_2
 	{
 	padding-bottom: 32767px !important;
-	margin-bottom: -32767px !important;
-        font-family: 'Raleway', sans-serif;
+	margin-bottom: -32767px !important; 
+        background-color: white;
+        color: black;
 	}
-        
 #wrapper
 	{
-	overflow: hidden;
-        display: block;
-        font-family: 'Raleway', sans-serif;
+	overflow: hidden; 
         }
+   
+        
+#block_1 p {
+      font-size: 13px; 
+      font-family: 'Raleway', sans-serif;
+        }
+        
+#block_1 h3 {
+            font-size: 16px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+        }
+        
+#block_1 h4{
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+        }
+              
+#block_2 ul li {
+            background-color: black;
+            display: block;
+            border-radius: 15px;
+            padding: 20px;
+            margin-right: 20px;
+        }        
+        
+#block_2 ul li a {
+         display: block;
+          margin: auto;
+          list-style-type: none;
+          color: white;
+          font-size: 14px;
+          font-family: 'Lato', sans-serif;
+        }       
+/* Hasta aqui el codigo css de sobre nosotros*/
+
